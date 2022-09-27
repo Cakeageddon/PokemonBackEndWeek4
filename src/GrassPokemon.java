@@ -30,4 +30,20 @@ public class GrassPokemon extends PokemonSuper {
         System.out.println(getName() + " Lashes out with its leaves! It cuts through its defendant with ease! Its " +
                 "super effective!");
     }
+
+    public boolean isHasPricklyLeaves() {
+        return hasPricklyLeaves;
+    }
+
+    public void setHasPricklyLeaves(boolean hasPricklyLeaves) {
+        this.hasPricklyLeaves = hasPricklyLeaves;
+    }
+
+    public int getAmountOfFlowers() {
+        return amountOfFlowers;
+    }
+
+    public void setAmountOfFlowers(int amountOfFlowers) {
+        this.amountOfFlowers = amountOfFlowers;
+    }
 }

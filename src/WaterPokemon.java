@@ -28,4 +28,19 @@ public class WaterPokemon extends PokemonSuper {
                 "only gets up to " + waterTemperature + " degrees!");
     }
 
+    public String getWaterColor() {
+        return waterColor;
+    }
+
+    public void setWaterColor(String waterColor) {
+        this.waterColor = waterColor;
+    }
+
+    public int getWaterTemperature() {
+        return waterTemperature;
+    }
+
+    public void setWaterTemperature(int waterTemperature) {
+        this.waterTemperature = waterTemperature;
+    }
 }

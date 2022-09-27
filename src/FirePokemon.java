@@ -26,5 +26,21 @@ public class FirePokemon extends PokemonSuper {
     public void fireLash() {
         System.out.println(getName() + " uses fireLash! It burns with a staggering intensity of " + fireTemperature + " degrees celsius!");
     }
+
+    public int getFireTemperature() {
+        return fireTemperature;
+    }
+
+    public void setFireTemperature(int fireTemperature) {
+        this.fireTemperature = fireTemperature;
+    }
+
+    public String getFireColor() {
+        return fireColor;
+    }
+
+    public void setFireColor(String fireColor) {
+        this.fireColor = fireColor;
+    }
 }
 

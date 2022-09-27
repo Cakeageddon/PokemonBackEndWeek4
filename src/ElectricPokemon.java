@@ -27,4 +27,20 @@ public class ElectricPokemon extends PokemonSuper {
         System.out.println(getName() + " used thunder! it looks " + lightningColor + ". The intensity of it is " +
                 "insane! It's said " + getName() + " produces " + voltage + " volts of energy!");
     }
+
+    public int getVoltage() {
+        return voltage;
+    }
+
+    public void setVoltage(int voltage) {
+        this.voltage = voltage;
+    }
+
+    public String getLightningColor() {
+        return lightningColor;
+    }
+
+    public void setLightningColor(String lightningColor) {
+        this.lightningColor = lightningColor;
+    }
 }
